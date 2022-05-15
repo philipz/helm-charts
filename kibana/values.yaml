@@ -45,7 +45,7 @@ hostAliases: []
 #  - "bar.local"
 
 image: "docker.elastic.co/kibana/kibana"
-imageTag: "8.1.0"
+imageTag: "7.17.3"
 imagePullPolicy: "IfNotPresent"
 
 # additionals labels
@@ -90,7 +90,7 @@ securityContext:
   runAsNonRoot: true
   runAsUser: 1000
 
-serviceAccount: "AAEAAWVsYXN0aWMva2liYW5hL2hlbG0tdG9rZW46SDdlTEZ1S3NTV2lVemZpQ0pESW1Sdw"
+serviceAccount: ""
 
 # Whether or not to automount the service account token in the pod. Normally, Kibana does not need this
 automountToken: true
